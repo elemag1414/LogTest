@@ -8,12 +8,12 @@ import datetime
 # GitHub API를 사용하기 위한 토큰 설정
 g = Github("your_github_token")
 
-# 랜덤 문자열 생성 함수
+# 랜덤 문자열 생성 함수 (optional)
 def random_string(length):
     letters = string.ascii_lowercase
     return ''.join(random.choice(letters) for i in range(length))
 
-# 랜덤 문자열을 history.log 파일에 추가하는 함수
+# history.log 파일에 메시지 추가하는 함수
 def append_random_string_to_file(repo, path, message, epoch, accuracy, branch):
     contents = repo.get_contents(path, ref=branch)
     now = datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")
@@ -24,7 +24,8 @@ def append_random_string_to_file(repo, path, message, epoch, accuracy, branch):
 # GitHub 레포지토리 설정
 repo = g.get_user().get_repo("your_repo_name")
 epoch = 1
-# 무한루프를 돌면서 일정 시간마다 랜덤 문자열을 history.log 파일에 추가
+
+# 무한루프를 돌면서 일정 시간마다 메시지를 history.log 파일에 추가
 while True:
 
     accuracy = random.randint(550, 1000)
