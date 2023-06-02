@@ -17,10 +17,10 @@ def random_string(length):
 def append_random_string_to_file(repo, path, message, branch):
     contents = repo.get_contents(path, ref=branch)
     now = datetime.datetime.now().strftime("%I:%M%p on %B %d, %Y")
-    newMSG = random_string(10)
-    print(f'Append New MSG {now}: {newMSG}')
+    newMSG = f'Append New MSG {now}: {random_string(10)}'
+    print(newMSG)
     # repo.update_file(contents.path, message, contents.decoded_content.decode("utf8") + newMSG + '\n', contents.sha, branch=branch)
-    repo.update_file(contents.path, message, contents.decoded_content.decode("utf8") + now + '\n', contents.sha, branch=branch)
+    repo.update_file(contents.path, message, contents.decoded_content.decode("utf8") + newMSG + '\n', contents.sha, branch=branch)
 
 # GitHub 레포지토리 설정
 repo = g.get_user().get_repo("your_repo_name")
