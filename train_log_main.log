@@ -35,3 +35,4 @@
   "isCompleted": false,
   "config": "./Config/TRAIN_DLV3.yaml"
 }
+@20230603_1909 [EP 1/500] took: 0h:8m:43s, ETA: 3d:0h:29m:37s [TRAIN] loss: 0.3407, accu-50: 11.65%, iou: 52.96% 852.50ms [EVAL] [1/138 step] loss: 0.9148, accu-50: 36.17%, iou: 4.26%, 235.67m
