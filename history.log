@@ -53,3 +53,36 @@
   "isCompleted": false,
   "config": "./Config/TRAIN_DLV3.yaml"
 }
+{
+  "HOST": "elctron",
+  "SAVE": false,
+  "github_log": true,
+  "architecture": "DLV3+",
+  "baseModel": "EffNet",
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "resume": false,
+  "prevEPOCH": 300,
+  "resumeWeight": "./model_weights/20230303_1849_NEW_DLV3PP_FINAL_EPOCH_300/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 10,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 8,
+  "lr_scheduling": true,
+  "lr": 0.001,
+  "decay_steps": 2.0,
+  "train_annotation": "./Annotations/train_base_db_20230523.txt",
+  "eval_annotation": "./Annotations/eval_base_db_20230523.txt",
+  "exp_comment": "* EffNet Base \n  - base DataSet used \n",
+  "isCompleted": false,
+  "config": "./Config/TRAIN_DLV3.yaml"
+}
