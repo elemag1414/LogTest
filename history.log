@@ -122,3 +122,5 @@ Append New MSG 11:12PM on June 02, 2023: itkbrrysun
 	[Epoch 035] eval_accu: 118.4%
 ** @01:02PM on June 03, 2023: 
 	[Epoch 037] eval_accu: 119.1%
+** @01:06PM on June 03, 2023: 
+	[Epoch 039] eval_accu: 121.3%
