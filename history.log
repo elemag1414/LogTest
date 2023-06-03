@@ -149,3 +149,4 @@
 }
 [EP 1/2] took: 0h:0m:20s, ETA: 0d:0h:0m:20s [TRAIN] loss: 0.9314, accu-50: 0.83%, iou: 3.73% 921.34ms [EVAL] [1/5 step] loss: 0.8333, accu-50: 0.00%, iou: 0.00%, 239.88m
 [EP 2/2] took: 0h:0m:15s, ETA: 0d:0h:0m:0s [TRAIN] loss: 0.6815, accu-50: 20.22%, iou: 19.64% 449.92ms [EVAL] [1/5 step] loss: 0.8333, accu-50: 0.00%, iou: 0.00%, 62.13m
+--- Finished in 59.5 seconds ---
