@@ -72,3 +72,39 @@
 [EP 2/2] took: 0h:0m:15s, ETA: 0d:0h:0m:0s
 
 --- Finished in 59.0 seconds ---
+
+
+** [ELECTRON] Launch Training on 20230603_1814
+{
+  "HOST": "elctron",
+  "github_log": true,
+  "architecture": "DLV3+",
+  "baseModel": "EffNet",
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "SAVE": true,
+  "num_epochs": 2,
+  "resume": false,
+  "prevEPOCH": 300,
+  "resumeWeight": "./model_weights/20230303_1849_NEW_DLV3PP_FINAL_EPOCH_300/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 10,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 8,
+  "lr_scheduling": true,
+  "lr": 0.001,
+  "decay_steps": 2.0,
+  "train_annotation": "./Annotations/train_base_db_20230523_mini.txt",
+  "eval_annotation": "./Annotations/eval_base_db_20230523_mini.txt",
+  "exp_comment": "* EffNet Base (mini test)\n  - base DataSet mini used \n",
+  "isCompleted": false,
+  "config": "./Config/TRAIN_DLV3_mini.yaml"
+}
