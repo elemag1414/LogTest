@@ -108,3 +108,4 @@
   "isCompleted": false,
   "config": "./Config/TRAIN_DLV3_mini.yaml"
 }
+[EP 1/2] took: 0h:0m:20s, ETA: 0d:0h:0m:20s [33mtrain[0m loss: 0.9478, accu-50: 0.75%, iou: 2.80% 911.35ms [33meval[0m [1/5 step] loss: 0.8333, accu-50: 0.00%, iou: 0.00%, 246.06m
