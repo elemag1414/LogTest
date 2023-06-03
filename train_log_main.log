@@ -100,3 +100,4 @@
 @20230604_0336 [EP 63/500] took: 0h:8m:10s, ETA: 2d:11h:28m:50s [TRAIN] loss: 0.0399, accu-50: 96.05%, iou: 92.34% 809.31ms [EVAL] [1/138 step] loss: 0.1106, accu-50: 85.25%, iou: 79.43%, 224.76m
 @20230604_0344 [EP 64/500] took: 0h:8m:10s, ETA: 2d:11h:20m:40s [TRAIN] loss: 0.0396, accu-50: 96.06%, iou: 92.41% 809.20ms [EVAL] [1/138 step] loss: 0.1169, accu-50: 84.54%, iou: 78.44%, 224.97m
 @20230604_0352 [EP 65/500] took: 0h:8m:10s, ETA: 2d:11h:12m:30s [TRAIN] loss: 0.0388, accu-50: 96.17%, iou: 92.54% 809.13ms [EVAL] [1/138 step] loss: 0.1350, accu-50: 86.76%, iou: 75.63%, 224.79m
+@20230604_0400 [EP 66/500] took: 0h:8m:10s, ETA: 2d:11h:4m:20s [TRAIN] loss: 0.0386, accu-50: 96.19%, iou: 92.58% 809.29ms [EVAL] [1/138 step] loss: 0.3062, accu-50: 72.54%, iou: 52.76%, 224.87m
