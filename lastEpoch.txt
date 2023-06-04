@@ -1,2 +1,2 @@
-electron: 103
-etri: 201
+electron: 0
+etri: 0
