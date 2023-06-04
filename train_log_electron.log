@@ -112,3 +112,4 @@
 [EP 75/500] took: 0h:16m:13s, ETA: 4d:18h:52m:5s [TRAIN] loss: 0.0645, accu-50: 93.50%, iou: 87.92% 439.53ms [EVAL] [1/518 step] loss: 0.8579, accu-50: 11.20%, iou: 7.82%, 75.71m
 [EP 76/500] took: 0h:16m:13s, ETA: 4d:18h:35m:52s [TRAIN] loss: 0.0640, accu-50: 93.53%, iou: 88.01% 440.98ms [EVAL] [1/518 step] loss: 0.5440, accu-50: 57.82%, iou: 30.26%, 75.81m
 [EP 77/500] took: 0h:16m:13s, ETA: 4d:18h:19m:39s [TRAIN] loss: 0.0649, accu-50: 93.49%, iou: 87.85% 439.77ms [EVAL] [1/518 step] loss: 0.9198, accu-50: 4.95%, iou: 4.12%, 75.58m
+[EP 78/500] took: 0h:16m:13s, ETA: 4d:18h:3m:26s [TRAIN] loss: 0.0639, accu-50: 93.61%, iou: 88.02% 440.84ms [EVAL] [1/518 step] loss: 0.7775, accu-50: 68.80%, iou: 13.69%, 75.90m
