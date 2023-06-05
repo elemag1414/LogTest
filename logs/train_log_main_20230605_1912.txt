@@ -1,0 +1,36 @@
+
+
+** [ELECTRON] Launch Training on 20230605_1912
+{
+  "HOST": "etri",
+  "SAVE": true,
+  "github_log": true,
+  "architecture": "DLV3+",
+  "baseModel": "ResNet50",
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "resume": false,
+  "prevEPOCH": 300,
+  "resumeWeight": "./model_weights/20230428_1504_NEW_DLV3PP_FINAL_EPOCH_300_AUG/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 5,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 30,
+  "lr_scheduling": true,
+  "lr": 0.001,
+  "decay_steps": 1.0,
+  "train_annotation": "./Annotations/train_base_db_20230523.txt",
+  "eval_annotation": "./Annotations/eval_base_db_20230523.txt",
+  "exp_comment": "* Experiment Comments Title\n  - Sub Comments Line1 \n  - Sub Comments Line2\n",
+  "isCompleted": false,
+  "config": "./Config/TRAIN_DLV3.yaml"
+}
