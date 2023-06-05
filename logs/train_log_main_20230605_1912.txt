@@ -1,6 +1,6 @@
 
 
-** [ELECTRON] Launch Training on 20230605_1912
+** [ETRI] Launch Training on 20230605_1912
 {
   "HOST": "etri",
   "SAVE": true,
