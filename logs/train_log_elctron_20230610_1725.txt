@@ -35,3 +35,4 @@
   "config": "./Config/TRAIN_DLV3.yaml"
 }
 @20230610_1742 [EP 217/500] took: 0h:16m:46s, ETA: 3d:7h:4m:58s [TRAIN] loss: 0.0569, accu-50: 94.42%, iou: 89.26%, f1: 94.31% 443.08ms [EVAL] [518/518 step] loss: 0.9806, accu-50: 0.99%, iou: 0.98%, f1: 1.94%, 78.34ms
+@20230610_1759 [EP 218/500] took: 0h:16m:42s, ETA: 3d:6h:29m:24s [TRAIN] loss: 0.0567, accu-50: 94.27%, iou: 89.30%, f1: 94.33% 438.60ms [EVAL] [518/518 step] loss: 0.9744, accu-50: 1.30%, iou: 1.30%, f1: 2.56%, 76.41ms
