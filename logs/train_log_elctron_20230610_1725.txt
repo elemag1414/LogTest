@@ -1,0 +1,36 @@
+
+
+** [elctron] Launch Training on 20230610_1725
+{
+  "HOST": "elctron",
+  "SAVE": true,
+  "github_log": true,
+  "architecture": "DLV3+",
+  "baseModel": "EffNet",
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "resume": true,
+  "prevEPOCH": 216,
+  "resumeWeight": "./model_weights/EffNet/20230607_2015_DLV3PP_EffNet_BEST_AUG/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 10,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 8,
+  "lr_scheduling": "exp",
+  "lr": 0.006253,
+  "decay_steps": 2.3,
+  "train_annotation": "./Annotations/train_base_db_20230523.txt",
+  "eval_annotation": "./Annotations/eval_base_db_20230523.txt",
+  "exp_comment": "* EffNet Base \n  - weight saved on eval f1 \n  - resume from EP216\n  - lr changed the value at EP216: 0.006253\n",
+  "isCompleted": false,
+  "config": "./Config/TRAIN_DLV3.yaml"
+}
