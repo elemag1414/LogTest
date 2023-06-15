@@ -34,3 +34,4 @@
   "isCompleted": false,
   "config": "./Config/TRAIN_DLV3.yaml"
 }
+@20230615_1212 [EP 179/500] lr: 0.0019488570978865027, took: 0h:16m:38s, ETA: 3d:16h:59m:18s [TRAIN] loss: 0.0515, accu-50: 94.86%, iou: 90.24%, f1: 94.85% 439.96ms [EVAL] [518/518 step] loss: 0.3068, accu-50: 83.60%, iou: 53.72%, f1: 69.32%, 77.24ms
