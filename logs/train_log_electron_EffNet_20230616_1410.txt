@@ -1,0 +1,36 @@
+
+
+** [electron] Launch Training on 20230616_1410
+{
+  "HOST": "electron",
+  "SAVE": true,
+  "github_log": true,
+  "architecture": "DLV3+",
+  "baseModel": "EffNet",
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "resume": false,
+  "prevEPOCH": 178,
+  "resumeWeight": "./model_weights/EffNet/20230612_1842_DLV3PP_EffNet_BEST_AUG/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 10,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 8,
+  "lr_scheduling": "exp",
+  "lr": 0.01,
+  "decay_steps": 0.6,
+  "train_annotation": "./Annotations/train_base_db_20230523.txt",
+  "eval_annotation": "./Annotations/eval_base_db_20230523.txt",
+  "exp_comment": "* Augmentation Reinforced\n  - Image Blur Feature Added \n* New Exp on exp Lr\n  - Due to frequent network error, there was unexpected termination over the last two exp. \n  - This makes hard to observe the behavior of exponetial decay lr scheduling.\n  - So, this time, we decided to start it over gain, \n  -  Also, we change the decay_steps from 1.0 to .6 (hard coded value), which makes lr curve more steeper .\n",
+  "isCompleted": false,
+  "config": "./Config/TRAIN_DLV3.yaml"
+}
