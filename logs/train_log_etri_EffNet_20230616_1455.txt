@@ -34,3 +34,4 @@
   "isCompleted": false,
   "config": "./Config/TRAIN_DLV3_EffNet.yaml"
 }
+@20230616_1529 [EP 2/500] lr: 0.009997532702982426, took: 0h:17m:1s, ETA: 5d:21h:14m:18s [TRAIN] loss: 0.1748, accu-50: 82.15%, iou: 70.62%, f1: 82.52% 866.92ms [EVAL] [276/276 step] loss: 1.0000, accu-50: 0.00%, iou: 0.00%, f1: 0.00%, 149.24ms
