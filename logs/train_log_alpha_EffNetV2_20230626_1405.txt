@@ -35,3 +35,4 @@
   "config": "Config/TRAIN_DLV3_EffNetV2.yaml"
 }
 @20230626_1413 [EP 1/500] lr: 0.009999999776482582, took: 0h:7m:36s, ETA: 2d:15h:12m:24s [TRAIN] loss: 0.4726, accu-50: 9.80%, iou: 39.45%, f1: 52.74% 252.94ms [EVAL] [414/414 step] loss: 1.0000, accu-50: 0.00%, iou: 0.00%, f1: 0.00%, 60.20ms
+@20230626_1419 [EP 2/500] lr: 0.009998421184718609, took: 0h:7m:1s, ETA: 2d:10h:14m:18s [TRAIN] loss: 0.2533, accu-50: 77.13%, iou: 61.05%, f1: 74.67% 213.45ms [EVAL] [414/414 step] loss: 1.0000, accu-50: 0.00%, iou: 0.00%, f1: 0.00%, 55.67ms
