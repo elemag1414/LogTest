@@ -38,3 +38,4 @@
   "config": "Config/TRAIN_DLV3_ResNet50_NEWDB.yaml"
 }
 @20230630_1728 [EP 1/500] lr: 0.009999999776482582, took: 0h:3m:46s, ETA: 1d:7h:19m:34s [TRAIN] loss: 0.4484, accu-50: 10.34%, iou: 42.18%, f1: 55.16% 239.36ms [EVAL] [247/247 step] loss: 0.8198, accu-50: 23.58%, iou: 10.29%, f1: 18.02%, 69.67ms
+@20230630_1732 [EP 2/500] lr: 0.009817931801080704, took: 0h:3m:33s, ETA: 1d:5h:27m:54s [TRAIN] loss: 0.2467, accu-50: 78.61%, iou: 62.48%, f1: 75.33% 210.06ms [EVAL] [247/247 step] loss: 0.2556, accu-50: 90.42%, iou: 60.20%, f1: 74.44%, 63.13ms
