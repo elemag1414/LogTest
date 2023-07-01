@@ -37,3 +37,4 @@
   "isCompleted": false,
   "config": "Config/TRAIN_DLV3_ResNet50_NEWDB_20230701.yaml"
 }
+@20230701_2053 [EP 1/500] lr: 0.009999999776482582, took: 0h:3m:53s, ETA: 1d:8h:17m:47s [TRAIN] loss: 0.0578, accu-50: 94.91%, iou: 89.11%, f1: 94.22% 239.77ms [EVAL] [259/259 step] loss: 0.1176, accu-50: 95.40%, iou: 79.13%, f1: 88.24%, 69.03ms
