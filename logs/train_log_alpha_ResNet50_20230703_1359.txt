@@ -1,0 +1,39 @@
+
+
+** [alpha] Launch Training on 20230703_1359
+{
+  "HOST": "alpha",
+  "SAVE": true,
+  "github_log": true,
+  "architecture": "DLV3+",
+  "baseModel": "ResNet50",
+  "gpuIDs": [
+    0
+  ],
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "resume": false,
+  "prevEPOCH": 172,
+  "resumeWeight": "./model_weights/ResNet50/20230605_1912_DLV3PP_ResNet50_BEST_AUG/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 15,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 14,
+  "lr_scheduling": "exp",
+  "lr": 0.01,
+  "decay_steps": 1.0,
+  "train_annotation": "./Annotations/consolidate_train_db_20230703_1351.txt",
+  "eval_annotation": "./Annotations/consolidate_eval_db_20230703_1351.txt",
+  "exp_comment": "* New consolidate DB used (0703 version) - Athylene Gas Images near SongKang Dong\n* temperature_shift value changed from 15\n",
+  "isCompleted": false,
+  "config": "Config/TRAIN_DLV3_ResNet50_NEWDB.yaml"
+}
