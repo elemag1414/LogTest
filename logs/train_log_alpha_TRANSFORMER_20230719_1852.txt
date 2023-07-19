@@ -1,0 +1,46 @@
+
+
+** [alpha] Launch Training on 20230719_1852
+{
+  "HOST": "alpha",
+  "SAVE": true,
+  "github_log": true,
+  "architecture": "UNETR",
+  "baseModel": "TRANSFORMER",
+  "numGPUs": 4,
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "num_layers": 12,
+  "hidden_dim": 768,
+  "mlp_dim": 3072,
+  "num_heads": 12,
+  "dropout_rate": 0.1,
+  "patch_size": 32,
+  "num_channels": 3,
+  "resume": false,
+  "prevEPOCH": 172,
+  "resumeWeight": "./model_weights/ResNet50/20230605_1912_DLV3PP_ResNet50_BEST_AUG/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 15,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 10,
+  "lr_scheduling": "exp",
+  "lr": 0.01,
+  "decay_steps": 1.0,
+  "train_annotation": "./Annotations/consolidate_train_db_20230711_1637.txt",
+  "eval_annotation": "./Annotations/consolidate_eval_db_20230711_1637.txt",
+  "exp_comment": "* Updated Annotations are used\n* Updated consolidate DB used (0711_1637 version) - Updated DB \n* This consolidate DB is updated from 0703_2119 version \n* 4 GPUs are used to train models\n",
+  "isCompleted": false,
+  "config": "Config/TRAIN_UNETR_NEWDB_20230711.yaml",
+  "numTrainDB": 11530,
+  "numEvalDB": 3524
+}
