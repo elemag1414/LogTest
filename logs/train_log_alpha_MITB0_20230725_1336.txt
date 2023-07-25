@@ -37,3 +37,4 @@
   "numTrainDB": 11530,
   "numEvalDB": 3524
 }
+@20230725_1338 @20230725_1338 [EP 1/500] lr: None, took: 111.24s (avg: 111.24s), ETA: 0d:15h:23m:9s [TRAIN] loss: 0.9321, iou: 0.0361, f1: 0.0679 [EVAL] loss: 0.8425, iou: 0.0861, f1: 0.1575
