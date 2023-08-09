@@ -1,0 +1,45 @@
+
+
+** [alpha] Launch Training on 20230809_1203
+{
+  "HOST": "alpha",
+  "SAVE": true,
+  "github_log": true,
+  "plot": true,
+  "architecture": "DLV3+",
+  "baseModel": "ResNet50",
+  "gpuIDs": "0,1,2,3",
+  "modelSize": [
+    512,
+    512
+  ],
+  "initialWeight": [
+    null,
+    null
+  ],
+  "num_epochs": 500,
+  "resume": false,
+  "prevEPOCH": 172,
+  "resumeWeight": "./model_weights/ResNet50/20230605_1912_DLV3PP_ResNet50_BEST_AUG/variables/variables",
+  "augmentation": true,
+  "temperature_shift": 15,
+  "Flag": true,
+  "p": 0.2,
+  "acc_thresh": 0.5,
+  "batch_size": 14,
+  "optimizer": "Adam",
+  "early_stop": false,
+  "lr_scheduling": "exp",
+  "lr": 0.001,
+  "stepwise_scheduling": true,
+  "decay_steps": 1.0,
+  "train_annotation": "./Annotations/consolidate_train_db_20230808_1942.txt",
+  "eval_annotation": "./Annotations/consolidate_eval_db_20230808_1942.txt",
+  "exp_comment": "* Updated Annotations are used\n* Updated consolidate DB used (20230808_1942 version) - Updated DB \n* 4 GPUs are used to train models\n* It's observed that initLr = 0.008 (stepwise) doesn't show good convergence. \n* So, new experiments on LR have been initiated. \n*   1st (0809_1052):    lr  0.004 : Doesn't seem to work\n*   2ns (0809_1202):    lr  0.001 \n",
+  "numGPUs": 4,
+  "finalEPOCH": 0,
+  "isCompleted": false,
+  "config": "Config/TRAIN_DLV3_ResNet50_NEWDB_20230808.yaml",
+  "numTrainDB": 11830,
+  "numEvalDB": 3600
+}
