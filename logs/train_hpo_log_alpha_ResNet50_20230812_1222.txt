@@ -2,3 +2,4 @@
 
 ** [alpha] Launch Training on 20230812_1222 lambda_weight: 0.3
 
+@20230812_1224 @20230812_1224 [EP 1/300] lr: 0.0007867820095270872, took: 108.99s (avg: 108.99s), ETA: 0d:8h:58m:12s [TRAIN] loss: 8597.6543, iou: 0.0091, f1: 0.0173 [EVAL] loss: 4021.3784, iou: 0.0033, f1: 0.0065
