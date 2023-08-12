@@ -71,3 +71,4 @@
   "log_file": "<_io.TextIOWrapper name='logs/hpo_history_log/20230812_1837/hpo_log_DLV3+_ResNet50_alpha_0.25_lambda_weight_0.1.txt' mode='w' encoding='UTF-8'>"
 }
 @20230812_1839 @20230812_1839 [EP 1/250] lr: 9.97904353425838e-05, took: 114.48s (avg: 114.48s), ETA: 0d:7h:53m:6s [TRAIN] loss: 29851.8320, iou: 0.0087, f1: 0.0171 [EVAL] loss: 87540.9531, iou: 0.0026, f1: 0.0053
+@20230812_1840 @20230812_1840 [EP 2/250] lr: 9.958076407201588e-05, took: 61.94s (avg: 61.94s), ETA: 0d:4h:12m:8s [TRAIN] loss: 4848.7334, iou: 0.0412, f1: 0.0777 [EVAL] loss: 9944.8076, iou: 0.0028, f1: 0.0056
