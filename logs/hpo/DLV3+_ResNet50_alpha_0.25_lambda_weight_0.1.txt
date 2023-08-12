@@ -68,3 +68,4 @@
   "dbg_file_logging": "dbg_file_logging",
   "log_file": "<_io.TextIOWrapper name='logs/hpo_history_log/20230812_1830/hpo_log_DLV3+_ResNet50_alpha_0.25_lambda_weight_0.1.txt' mode='w' encoding='UTF-8'>"
 }
+@20230812_1832 @20230812_1832 [EP 1/2] lr: 9.97904353425838e-05, took: 115.20s (avg: 115.20s), ETA: 0d:0h:1m:55s [TRAIN] loss: 30074.8789, iou: 0.0098, f1: 0.0191 [EVAL] loss: 64488.5312, iou: 0.0026, f1: 0.0051
