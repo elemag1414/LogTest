@@ -73,3 +73,4 @@
   "github_log_file": "logs/hpo/DLV3+_ResNet50_alpha_0.75_lambda_weight_0.2.txt"
 }
 @20230814_0637 @20230814_0637 [EP 1/250] lr: 9.97904353425838e-05, took: 113.06s (avg: 113.06s), ETA: 0d:7h:48m:57s [TRAIN] loss: 17028.6895, iou: 0.0037, f1: 0.0073 [EVAL] loss: 20807.4961, iou: 0.0029, f1: 0.0058
+@20230814_0638 @20230814_0638 [EP 2/250] lr: 9.958076407201588e-05, took: 61.68s (avg: 61.68s), ETA: 0d:4h:12m:8s [TRAIN] loss: 3785.8142, iou: 0.0178, f1: 0.0337 [EVAL] loss: 6679.0400, iou: 0.0044, f1: 0.0087
